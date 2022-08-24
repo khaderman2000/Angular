@@ -1,0 +1,17 @@
+<div class="maindiv">
+    <div class="top"><h1>APP LOGO</h1></div>
+    <div class="down">
+        <div class="leftSectin">
+          
+            <div (click)="goToUsers()" class="RoutingItems" style="margin-top: 15px;"><p> Users</p></div>
+ 
+            <div (click)="goToPosts()"  class="RoutingItems"><p> Posts</p></div>
+            <div class="RoutingItems"><p> Setting</p></div>
+      
+        </div>
+        <div  class="mainsection">
+           <router-outlet></router-outlet>
+        </div>
+    
+    </div> 
+</div>

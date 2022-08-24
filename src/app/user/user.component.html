@@ -1,0 +1,37 @@
+<div class="MainDiv">
+
+  <div class="head">
+    <div><h2>Users</h2></div>
+
+<div >
+  <button class="AddButtonDiv" (click)="goToUserForm()"  class="AddButton ButtonStyle">+</button>
+</div> 
+</div>
+<div class="TableDiv">
+  
+<table class='table'>
+  <thead>
+  <tr>
+    <th style="width: 70px;">UserID</th>
+    <th style="width:150px ;">User name</th>
+    <th style="width:250px">Email</th>
+    <th style="width:70px ;"> </th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of _users ;index as i">
+      {{getIndex(i)}}
+      <td >{{user.id}}</td>
+      <td>{{user.username}}</td>
+    <td>{{user.email}}</td>
+    <td> 
+      <button (click)="goToEdit()" class="EditButton ButtonStyle">edit</button>
+      <button (click)="delete(this.user)"  class="RemoveButton ButtonStyle">X</button>
+    </td>
+  </tr>
+  </tbody>
+</table >
+</div>
+<a>{{index+ "  items to show"}}</a>
+
+</div>

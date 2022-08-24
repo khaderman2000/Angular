@@ -1,0 +1,57 @@
+
+.maindiv{
+    display: flex;
+    min-height: 100vh;
+    background-color: blueviolet;
+    margin: 0;
+    flex-direction:column;
+    flex: 3;
+
+}
+.top    {
+    background-color:hsla(182, 30%, 50%, 0.973);
+    height: 70px;
+    align-items: center;
+}
+.down{
+    display: flex;
+    flex-direction: row;
+
+}
+.leftSectin{
+    display: flex;
+    height: 100vh;
+     flex: 1;
+    background-color: rgb(185, 194, 203);
+    flex-direction: column;
+}
+.mainsection{
+    display: flex;
+    height: 100vh;
+flex: 4;
+    background-color: rgb(251, 252, 252);
+    flex-direction: column;
+
+}
+h1{
+    margin-left: 40px;
+    color: aliceblue;
+}
+.RoutingItems{
+    background-color:inherit;
+    height: 40px;
+    align-items: center !important;
+    text-align: center;
+    border-bottom: 1px rgb(104, 119, 135) solid !important;
+    
+}
+.RoutingItems:hover{
+    background-color: rgb(149, 152, 155);
+
+}
+p{
+    height: inherit;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0px;
+}

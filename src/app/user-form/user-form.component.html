@@ -1,0 +1,40 @@
+        <div class="MainDiv">
+            <div>
+                <h2>
+                AddUser
+                </h2>
+            </div>
+        <div class="innerdiv">
+           
+            <form #userForm="ngForm" >       
+                
+            <div class="input" >
+                <label class="LabelInput"  > first Name </label>
+                <input type="text" name="firstName" [(ngModel)]="userModel.firstName" >
+            </div>
+            <div class="input" >
+                <label class="LabelInput"  > Last Name </label>
+                <input type="text" name="lastName" [(ngModel)]="userModel.lastName" >
+            </div>
+            
+            <div class="input">
+                <label class="LabelInput"> UserName </label>
+                <input type="text"  name="username" [(ngModel)]="userModel.username">
+            </div>
+            <div class="input">
+                <label class="LabelInput" > email </label>
+                <input type="text" name="email" [(ngModel)]="userModel.email" >
+            </div>
+            <div class="input">
+                <label class="LabelInput" > Password </label>
+                <input type="text"name="passwordHash" [(ngModel)]="userModel.passwordHash">
+            </div>
+            
+            </form>
+            <div>
+                <button (click)="saveUser()" >Save</button>
+                
+            </div>
+         </div>
+        </div>
+   

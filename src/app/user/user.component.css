@@ -1,0 +1,76 @@
+
+.MainDiv{
+display: flex;
+flex-direction: column;
+}
+
+.AddButton{
+    font-size: 40px !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px !important;
+   
+}
+.TableDiv{
+    flex: 1;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+  table {
+    border-collapse: collapse;
+    text-align: center;
+    align-self: flex-start;
+    padding-left: 5px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px rgb(210, 191, 191) !important;
+
+  }
+  td,tr { 
+    border-bottom:2px hsla(182, 30%, 50%, 0.973) solid;
+  border-width: 1px ;
+ 
+  }
+  
+  
+  .RemoveButton{
+    background-color: red  !important;
+
+  }
+  .ButtonStyle{
+    align-items: center;
+    background-color:hsla(182, 30%, 50%, 0.973);
+    color: rgb(251, 252, 252);
+    margin: 2px;
+    border: 0px;
+    border-radius: 3px;
+    font-size: 15px;
+  }
+  a{
+    margin-left: 20px;
+    font-size: 15px;
+    color: hsla(195, 30%, 40%, 0.973);
+  }
+  .head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+
+  }
+  .AddButtonDiv{
+    display: flex;
+    align-self: flex-end;
+  padding-bottom: 30px;
+  margin-right: 20px ;
+  margin-top: 20px;
+  flex-direction: row;
+  
+  }
+  .Users{
+    align-self: flex-end;
+  
+  }
+
+ 
+  
